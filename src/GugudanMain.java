@@ -18,7 +18,7 @@ public class GugudanMain {
 				int[] result = Gugudan.calculate1(InputValue2, InputValue3);
 				int[] result1 = Gugudan.end(InputValue3);
 				Gugudan.print(result0,result,result1);
-				InputValue2=InputValue2+1;
+				InputValue2=InputValue2+1; 
 			}
 		} else {
 			System.out.println("input numer greater than 1");
